@@ -9,7 +9,7 @@ PM> Install-Package Milaneze.Helpers
 
 ## Exemplo
 using Milaneze.Helpers; // ativa os Extension Methods
-...
+
 string n1 = "eric    milanéze   ";
 string n2 = nome.RemoverEspacosDuplicados().RemoverAcentos().PrimeirasLetrasPalavraMaiusculas(); // Eric Milaneze
 
