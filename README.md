@@ -5,23 +5,33 @@ Escrito em C# com o Visual Studio 2015 Community.
 
 NuGet: https://www.nuget.org/packages/Milaneze.Helpers/
 
+```
 PM> Install-Package Milaneze.Helpers
+```
 
 ## Exemplo
 ```
 using Milaneze.Helpers; // ativa os Extension Methods
 ...
+...
+...
 string n1 = "eric    milanéze   ";
-string n2 = nome.RemoverEspacosDuplicados().RemoverAcentos().PrimeirasLetrasPalavraMaiusculas(); // Eric Milaneze
+string n2 = 
+	n1
+		.RemoverEspacosDuplicados()
+		.RemoverAcentos()
+		.PrimeirasLetrasPalavraMaiusculas();
+
+Console.WriteLine(n2); // saída: "Eric Milaneze"
 ...
 ```
 
 ## Funcionalidades
 
 ### Funcionalidades de String (Extension Methods)
-* Método SafeSubstring(): não gera Exceptions como o Substring().
+* Método **SafeSubstring()**: não gera Exceptions como o Substring().
 * Remoção de acentos.
-* ReplaceFirst(): substitui a primeira ocorrência de uma string.
+* **ReplaceFirst()**: substitui a primeira ocorrência de uma string.
 * Remoção de espaços duplicados.
 * Remoção de caracteres não numéricos.
 * Remoção de caracteres especiais para formar nome de arquivo.
@@ -35,21 +45,29 @@ string n2 = nome.RemoverEspacosDuplicados().RemoverAcentos().PrimeirasLetrasPala
 ### Funcionalidades de DateTime (Extension Methods)
 * Escrita de data por extenso.
 * Cálculo de idade.
-* Cálculo de tempo de trabalho, considerando início de fim de jornada, pausas, feriados, entre outras possibilidades customizáveis.
+* Cálculo de tempo de trabalho, considerando início e fim de jornada, pausas, feriados, entre outras possibilidades customizáveis.
 
-### Funcionalidades de Char (Extension Methods)
+### Funcionalidade de Char (Extension Methods)
 * Verificação de caractere numérico.
 
 ### Funcionalidades de Array (Extension Methods)
 * Verificação de existência de posição de um **ICollection**.
 
-### CPF
+### Funcionalidades de tratamento de CPF
 * Validação.
 * Formatação.
+* Tirar formatação.
+* Extração de raiz.
+* Extração de dígitos verificadores.
 
-### CNPJ
+### Funcionalidades de tratamento de CNPJ
 * Validação.
-* Formatação
+* Formatação.
+* Tirar formatação.
+* Extração de raiz.
+* Verifir se CNPJ é de filial ou matriz.
+* Extração de matriz.
+* Extração de dígitos verificadores.
 
-### Funcionalidades Utilitárias
+### Funcionalidade Utilitária
 * Lista de feriados do ano (feriados fixos e móveis, como carnaval).
