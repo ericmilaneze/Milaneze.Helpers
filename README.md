@@ -26,6 +26,9 @@ Console.WriteLine(n2); // saída: "Eric Milaneze"
 ...
 ```
 
+## Diagrama de Classes
+![alt tag](https://raw.githubusercontent.com/ericmilaneze/Milaneze.Helpers/master/Solution/Milaneze.Helpers/ClassDiagram.png)
+
 ## Funcionalidades
 
 ### Funcionalidades de String (Extension Methods)
