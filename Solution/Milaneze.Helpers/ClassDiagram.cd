@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Milaneze.Helpers.CNPJHelper">
+    <Position X="5.5" Y="4.25" Width="3.25" />
+    <Members>
+      <Method Name="digitoVerificador" Hidden="true" />
+      <Method Name="minimoDozeCaracteresSenaoException" Hidden="true" />
+      <Method Name="multiplicador" Hidden="true" />
+      <Field Name="sufixoMatriz" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAAAEQAAAAABAQAAEoAQAAgAAAAEAACIA=</HashCode>
+      <FileName>CNPJHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Milaneze.Helpers.CPFHelper">
+    <Position X="9.25" Y="3.75" Width="2.5" />
+    <Members>
+      <Method Name="digitoVerificador" Hidden="true" />
+      <Method Name="minimoNoveCaracteresSenaoArgumentException" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAQAAAoAQAAAAAAAEAICAA=</HashCode>
+      <FileName>CPFHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Milaneze.Helpers.Utilidades">
+    <Position X="12.25" Y="0.75" Width="2.5" />
+    <Members>
+      <Field Name="_dataAtual" Hidden="true" />
+      <Field Name="_feriadoDescricaoCarnaval" Hidden="true" />
+      <Field Name="_feriadoDescricaoCorpusChristi" Hidden="true" />
+      <Field Name="_feriadoDescricaoDomingoCarnaval" Hidden="true" />
+      <Field Name="_feriadoDescricaoPascoa" Hidden="true" />
+      <Field Name="_feriadoDescricaoSegundaCarnaval" Hidden="true" />
+      <Field Name="_feriadoDescricaoSextaPaixao" Hidden="true" />
+      <Field Name="_feriadosFixos" Hidden="true" />
+      <Field Name="_fimPeriodoDeTrabalho" Hidden="true" />
+      <Field Name="_fimPeriodoDeTrabalhoPadrao" Hidden="true" />
+      <Field Name="_inicioPeriodoDeTrabalho" Hidden="true" />
+      <Field Name="_inicioPeriodoDeTrabalhoPadrao" Hidden="true" />
+      <Method Name="calculaDiaPascoa" Hidden="true" />
+      <Method Name="calcularCorpusChristi" Hidden="true" />
+      <Method Name="calcularDomingoCarnaval" Hidden="true" />
+      <Method Name="calcularSegundaCarnaval" Hidden="true" />
+      <Method Name="calcularSextaPaixao" Hidden="true" />
+      <Method Name="calcularTercaCarnaval" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IACg4AgAACCCCQAJIAIgQANIAFABAQCBSAAAhgBQAoA=</HashCode>
+      <FileName>Utilidades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Milaneze.Helpers.DateTimeHelper">
+    <Position X="9.25" Y="0.75" Width="2.75" />
+    <Members>
+      <Method Name="BusinessTimeDelta24h" Hidden="true" />
+      <Method Name="calcularDataFinalValida" Hidden="true" />
+      <Method Name="calcularDataInicialValida" Hidden="true" />
+      <Method Name="calcularHoraFinalValida" Hidden="true" />
+      <Method Name="calcularHoraInicialValida" Hidden="true" />
+      <Method Name="calcularTempoEntrePrimeiroEUltimoDia" Hidden="true" />
+      <Method Name="calcularTempoEntrePrimeiroEUltimoDia24h" Hidden="true" />
+      <Method Name="calcularTempoPrimeiroDia" Hidden="true" />
+      <Method Name="calcularTempoUltimoDia" Hidden="true" />
+      <Method Name="calcularTotalHorasComPausa" Hidden="true" />
+      <Method Name="dataDentroDoDiaDeTrabalhoEntrada" Hidden="true" />
+      <Method Name="dataDentroDoDiaDeTrabalhoSaida" Hidden="true" />
+      <Method Name="getHoraFimValida" Hidden="true" />
+      <Method Name="getHoraInicioValida" Hidden="true" />
+      <Method Name="getPausaDia" Hidden="true" />
+      <Method Name="isDataDentroDaPausa" Hidden="true" />
+      <Method Name="isDataInicialFinalDentroDaPausa" Hidden="true" />
+      <Method Name="isDiaUtilFeriado" Hidden="true" />
+      <Method Name="isDiaUtilFinalDeSemana" Hidden="true" />
+      <Method Name="isHorarioDentroDaPausa" Hidden="true" />
+      <Method Name="isHorarioInicialFinalDentroDaPausa" Hidden="true" />
+      <Method Name="isPausaDentroDoHorario" Hidden="true" />
+      <Method Name="isVinteEQuatroHoras" Hidden="true" />
+      <Method Name="isZerado" Hidden="true" />
+      <Method Name="validarDatasInicioFimPausa2" Hidden="true" />
+      <Method Name="validarDatasInicioFimPausaSemDuplicados" Hidden="true" />
+      <Method Name="validarHorariosInicioFimPausa" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BCwAAEAEQUKgAAAgBRBBEAAggAFAkBQAAAAFAEAACBA=</HashCode>
+      <FileName>DateTimeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Milaneze.Helpers.StringHelper">
+    <Position X="5.5" Y="0.75" Width="3.5" />
+    <Members>
+      <Method Name="getMenorLength" Hidden="true" />
+      <Method Name="getMenorOuZero" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIQQEAAAAAAIEQACAAEAgAAAAAAAAIAAAAgg=</HashCode>
+      <FileName>StringHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Milaneze.Helpers.ArrayHelper">
+    <Position X="12.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArrayHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
